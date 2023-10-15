@@ -1,0 +1,40 @@
+What is an Event Loop؟
+an event loop is a crucial component of asynchronous, non-blocking, and event-driven programming. It allows you to manage and coordinate I/O operations and other tasks efficiently without blocking the main program's execution. Event loops are especially important for handling multiple concurrent tasks, such as network connections, user interactions, or other asynchronous operations.
+
+
+*Adding an Element to the Beginning*:
+
+1. *Using `array_unshift()`*:
+   The `array_unshift()` function adds one or more elements to the beginning of an array.
+
+   php
+   $myArray = [2, 3, 4];
+   array_unshift($myArray, 1); // Adds 1 to the beginning of the array
+   
+
+2. *Using the `+` Operator*:
+   You can merge arrays using the `+` operator, effectively adding elements to the beginning.
+
+   php
+   $myArray = [2, 3, 4];
+   $myArray = [1] + $myArray; // Adds 1 to the beginning of the array
+   
+
+*Adding an Element to the End*:
+
+1. *Using `array_push()`*:
+   The `array_push()` function adds one or more elements to the end of an array.
+
+   php
+   $myArray = [1, 2, 3];
+   array_push($myArray, 4); // Adds 4 to the end of the array
+   
+
+2. *Using the `[]` Notation*:
+   You can use empty square brackets `[]` to append an element to the end of an array.
+
+   php
+   $myArray = [1, 2, 3];
+   $myArray[] = 4; // Adds 4 to the end of the array
+
+
